@@ -1,0 +1,22 @@
+header{
+    background-color: #ffe4c4;
+}
+ul{
+    display: flex;
+    /*옆 붙이기 요소끼리 떨어뜨리기 */
+    gap : 0 10px;
+    justify-content: end;
+}
+li{
+    list-style: none;
+}
+div{
+    width:100px;
+    height: 100px;
+    background-color: lightslategrey;
+}
+section{
+    display: flex;
+    gap : 0 20px;
+    justify-content: center;
+}

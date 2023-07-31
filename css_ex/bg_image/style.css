@@ -1,0 +1,25 @@
+div{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+}
+
+#a{
+    background-image: url(mountains.jpg);
+    /*원본 사진의 비율을 유지한 상태로 조정*/
+    background-size: contain;
+    /*배경을 반복하지 않게*/
+    background-repeat: no-repeat;
+}
+
+#b{
+    background-image: url(mountains.jpg);
+    /*딱맞게*/
+    background-size: cover;
+}
+
+#c{
+    background-image: url(mountains.jpg);
+    /*딱맞게*/
+    background-size: 100% 100%;
+}
