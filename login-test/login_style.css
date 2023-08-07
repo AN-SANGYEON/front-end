@@ -1,0 +1,42 @@
+body{
+    background-color: white;
+}
+
+h1{
+    text-align: center;
+    color: #547fb2;
+}
+
+div{
+    border: 2px;
+    background-color: #c4dfff;
+    border-radius: 7px;
+    width: 400px;
+    padding: 30px;
+    margin: 50px auto;
+}
+
+#button{
+    text-align: center;
+    background-color: #ffe4c4;
+    border-color: #ffe4c4;
+    color: #547fb2;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 4px;
+    width: 85%;
+    padding: 12px;
+    display: block;
+    margin: 0 auto;
+}
+
+#username, #password{
+    border-color: white;
+    border-radius: 4px;
+    width: 80%;
+    padding: 8px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    display: block;
+    margin: 0 auto;
+}

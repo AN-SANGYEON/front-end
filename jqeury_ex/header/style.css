@@ -1,0 +1,33 @@
+body{
+    padding-top: 90px;
+}
+
+header{
+    /**/
+    /*화면 가득 차게*/
+    width: 100%;
+    /*높이 조정*/
+    height: 50px;
+    background-color: rgb(231, 195, 231);
+    padding: 20px 50px;
+    /*윈도우 기준으로 화면을 고정*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    /*옆으로 나란히*/
+    display: flex;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    gap : 0 40px;
+
+}
+
+.menu li{
+    /**/
+    list-style: none;
+}
+main{
+    height: 1200px;
+}
