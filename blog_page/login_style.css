@@ -1,0 +1,56 @@
+body{
+    background-color: white;
+}
+
+h1{
+    text-align: center;
+    color: #547fb2;
+}
+
+input{
+    display: block;
+    width : 380px;
+    margin-bottom: 16px;
+}
+
+.login{
+    border: 2px;
+    background-color: #c4dfff;
+    border-radius: 7px;
+    width: 400px;
+    padding: 30px;
+    margin: 50px auto;
+}
+
+#button, #button2{
+    text-align: center;
+    background-color: #ffe4c4;
+    border-color: #ffe4c4;
+    color: #547fb2;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 4px;
+    width: 30%;
+    padding: 5px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+
+#username, #password{
+    border-color: white;
+    border-radius: 4px;
+    width: 80%;
+    padding: 8px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    margin-top: 14px;
+}
