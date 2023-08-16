@@ -7,7 +7,7 @@ h1{
     color: white;
 }
 
-.login{
+.category{
     border: 2px;
     background-color: #EAC7CC;
     border-radius: 7px;
@@ -16,7 +16,7 @@ h1{
     margin: 50px auto;
 }
 
-#button, #button2{
+#button1, #button2{
     text-align: center;
     background-color: white;
     border-color: pink;
@@ -31,7 +31,7 @@ h1{
 }
 
 
-#username, #password{
+#name{
     border-color: white;
     border-radius: 4px;
     width: 80%;
