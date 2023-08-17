@@ -28,6 +28,7 @@ h1{
     padding: 5px;
     display: block;
     margin: 0 auto;
+    margin-top: 10px;
 }
 
 
@@ -40,6 +41,18 @@ h1{
     margin-bottom: 10px;
     display: block;
     margin: 20px auto;
+}
+
+#image{
+    text-align: center;
+    color: white;
+    width: 82%;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 5px;
+    display: block;
+    margin: 0 auto;
 }
 
 .flex{

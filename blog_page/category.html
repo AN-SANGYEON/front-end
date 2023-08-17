@@ -10,13 +10,13 @@
 
 <body>
     <div class="category">
-        <form action="" method="post">
+        <form action="" method="post" enctype="multipart/form-data">
             <h1>Category</h1>
-
-            <input type="text" id="name" name="name" placeholder="入力" required>
+            <input type="text" id="name" name="name" placeholder="名前" required>
+            <input type="file" id="image" name="image" accept="image/*" required>
             <div class="flex">
                 <input type="submit" id="button1" value="登録">
-                <input type="submit" id="button2" value="戻る">
+                <input type="submit" id="button2" value="削除">
             </div>
         </form>
 
@@ -25,4 +25,3 @@
 </body>
 
 </html>
-

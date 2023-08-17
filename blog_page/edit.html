@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit</title>
+    <link rel="stylesheet" href="edit_style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div>
+                <h1><!--入力した名前が入るように-->のBLOG</h1>
+            </div>
+            <div>
+                <input type="button" id="button1" value="Edit" onclick="">
+                <input type="button" id="button2" value="Post" onclick="">
+            </div>
+        </div>
+        <div class="main-image"></div><!--仮-->
+    </header>
+    <main>
+        <div class="blog-contents">
+            <div class="profile-contents">
+                <div class="profile-image"></div><!--仮-->
+                <div class="profile">aaaaaaaaa<!--入力した内容出力--></div>
+                <div class="comment">
+                    <h3>COMMENT</h3>
+                    <form action="" method="post">
+                        <input type="text" id="comment" name="comment" required>
+                        <input type="submit" id="write" value="write">
+                    </form>
+                </div>
+            </div>
+            <!--ピンク-->
+            <!--各項目が改行になるようにしたいです。-->
+            <div class="edit-list">
+                <div class="main-image2">
+                    <form action="" method="post" enctype="multipart/form-data">
+                        <div class="flex">
+                            <label for="main-image2">メイン写真変更</label>
+                            <input type="file" id="main-image2" name="main-image2" accept="image/*" required>
+                            <input type="submit" id="mib" value="登録">
+                        </div>
+                    </form>
+                </div>
+                <div class="profile-image2">
+                    <form action="" method="post" enctype="multipart/form-data">
+                        <div class="flex">
+                            <label for="profile-image2">プロフィル写真変更</label>
+                            <input type="file" id="profile-image2" name="profile-image2" accept="image/*" required>
+                            <input type="submit" id="pib" value="登録">
+                        </div>
+                    </form>
+                </div>
+                <div class="profile2">
+                    <form action="" method="post">
+                        <label for="profile2">プロフィル説明変更</label>
+                        <input type="text" id="profile2" name="profile2" required>
+                    </form>
+                </div>
+                <div class="add-category-list">
+                    <div class="flex">
+                        <label for="acl">カテゴリを追加</label>
+                        <input type="button" id="acl" name="acl" value="追加">
+                    </div>
+                </div>
+                <div class="category-list">
+                    <ul>
+                        <li>1111</li>
+                        <li>2222</li>
+                        <li>3333</li>
+                        <li>4444</li>
+                        <li>5555</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Copyright 2023. An Sangyeon all rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>

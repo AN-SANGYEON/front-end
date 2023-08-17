@@ -27,6 +27,13 @@ h1{
     margin-left: 15px;
 }
 
+/*追加ソース*/
+/*ピンクの部分とプロフィールの部分を横ならびにする*/
+.blog-contents{
+    display: flex;
+    justify-content: center;
+}
+
 .main-image{
     height:250px;
     overflow:hidden;
@@ -35,7 +42,7 @@ h1{
     margin-bottom: 30px;
 }
 /*メイン部分*/
-.category{
+.edit-list{
     width: 85%;
     height: auto;
     background-color: #EAC7CC;
@@ -43,23 +50,10 @@ h1{
     padding: 30px;
     margin-bottom: 30px;
     margin-left: 30px;
-    text-align: center;
     /*新規追加*/
     display: flex;
     flex-wrap: wrap;
     gap: 0 20px;
-}
-.categorys{
-    width : 45%;
-    height: auto;
-    background-size: contain;
-    background-repeat: no-repeat;
-    border: 2px solid white;
-    border-radius: 5px;
-    margin: 20px;
-}
-.categorys a div img{
-    width: 100%;
 }
 
 .profile-image{
@@ -93,7 +87,6 @@ h1{
 h3{
     text-align: left;
     color: white;
-    display: inline-block;
 }
 
 #comment{
@@ -110,17 +103,73 @@ h3{
     border-radius: 4px;
 }
 
+label{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    display: block;
+}
+
+#main-image2, #profile-image2{
+    border-bottom: solid 2px white;
+    color: pink;
+    width: 300px;
+    height: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+    margin: 0 auto;
+    margin-right: 20px;
+    display: block;
+}
+
+#mib, #pib, #acl{
+    text-align: center;
+    background-color: white;
+    border-color: pink;
+    color: pink;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 4px;
+    width: auto;
+    height: 40px;
+    padding: 5px;
+    margin: 0 auto;
+    display: block;
+}
+
+#profile2{
+    border-color: white;
+    width: 300px;
+    height: 200px;
+    font-size: 15px;
+    color: pink;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+li{
+    list-style:none;
+    padding-left:0px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 10px;
+}
 
 footer{
     color: white;
     font-size: small;
     display: block;
     text-align: center;
-} /*제일 아래로*/ 
-
-/*追加ソース*/
-/*ピンクの部分とプロフィールの部分を横ならびにする*/
-.blog-contents{
-    display: flex;
-    justify-content: center;
 }
