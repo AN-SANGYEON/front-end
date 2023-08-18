@@ -35,14 +35,21 @@ h1{
     margin-bottom: 30px;
 }
 /*メイン部分*/
+
+.blog-contents{
+    display: flex;
+    justify-content: center;
+    gap: 0 30px;
+    width: 70%;
+    margin: 0 auto;
+}
 .category{
-    width: 85%;
+    width: 70%;
     height: auto;
     background-color: #EAC7CC;
     /*float : right;*/
     padding: 30px;
-    margin-bottom: 30px;
-    margin-left: 30px;
+    margin: 0 auto 30px auto;
     text-align: center;
     /*新規追加*/
     display: flex;
@@ -50,7 +57,7 @@ h1{
     gap: 0 20px;
 }
 .categorys{
-    width : 45%;
+    width : 35%;
     height: auto;
     background-size: contain;
     background-repeat: no-repeat;

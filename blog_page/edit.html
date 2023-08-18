@@ -37,7 +37,7 @@
             <!--ピンク-->
             <!--各項目が改行になるようにしたいです。-->
             <div class="edit-list">
-                <div class="main-image2">
+                <div class="main-image2 space">
                     <form action="" method="post" enctype="multipart/form-data">
                         <div class="flex">
                             <label for="main-image2">メイン写真変更</label>
@@ -46,7 +46,7 @@
                         </div>
                     </form>
                 </div>
-                <div class="profile-image2">
+                <div class="profile-image2 space">
                     <form action="" method="post" enctype="multipart/form-data">
                         <div class="flex">
                             <label for="profile-image2">プロフィル写真変更</label>
@@ -55,19 +55,23 @@
                         </div>
                     </form>
                 </div>
-                <div class="profile2">
+                <div class="profile2 space">
                     <form action="" method="post">
-                        <label for="profile2">プロフィル説明変更</label>
-                        <input type="text" id="profile2" name="profile2" required>
+                        <div class="profile2-flex">
+                            <label for="profile2">プロフィル説明変更</label>
+                            <input type="submit" id="pfb" value="登録">
+                        </div>
+                        <input type="textarea" id="profile2" name="profile2" required>
+
                     </form>
                 </div>
-                <div class="add-category-list">
-                    <div class="flex">
+                <div class="add-category-list space">
+                    <div class="profile2-flex">
                         <label for="acl">カテゴリを追加</label>
                         <input type="button" id="acl" name="acl" value="追加">
                     </div>
                 </div>
-                <div class="category-list">
+                <div class="category-list space">
                     <ul>
                         <li>1111</li>
                         <li>2222</li>
