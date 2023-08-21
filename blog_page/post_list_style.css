@@ -30,7 +30,6 @@ h1{
 .main-image{
     height:250px;
     overflow:hidden;
-    background-image: url(flower.jpg);
     background-size: cover;
     margin-bottom: 30px;
 }
@@ -74,7 +73,6 @@ h1{
     height: 240px;
     border: 2px solid white;
     border-radius: 5px;
-    background-image: url(cat.jpg);
     background-size: cover;
     padding: 10px;
     margin-bottom: 20px;

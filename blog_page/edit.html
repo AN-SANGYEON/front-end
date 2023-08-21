@@ -5,37 +5,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edit</title>
-    <link rel="stylesheet" href="edit_style.css">
+    <link rel="stylesheet" th:href="@{edit_style.css}">
 </head>
 
 <body>
     <header>
         <div class="header">
             <div>
-                <h1><!--入力した名前が入るように-->のBLOG</h1>
+                <h1 th:text="${userName}" name="blogTitle">のBLOG</h1>
             </div>
             <div>
                 <input type="button" id="button1" value="Edit" onclick="">
                 <input type="button" id="button2" value="Post" onclick="">
             </div>
         </div>
-        <div class="main-image"></div><!--仮-->
+        <div class="main-image"><img th:src="@{/blog-image/flower.jpg}" alt=""></div>
     </header>
     <main>
         <div class="blog-contents">
             <div class="profile-contents">
-                <div class="profile-image"></div><!--仮-->
-                <div class="profile">aaaaaaaaa<!--入力した内容出力--></div>
+                <div class="profile-image"><img th:src="@{/blog-image/cat.jpg}" alt=""></div>
+                <div class="profile" th:text="${blog.profile}"></div>
                 <div class="comment">
                     <h3>COMMENT</h3>
                     <form action="" method="post">
-                        <input type="text" id="comment" name="comment" required>
+                        <input type="text" id="comment" name="blogComment" required>
                         <input type="submit" id="write" value="write">
                     </form>
                 </div>
             </div>
-            <!--ピンク-->
-            <!--各項目が改行になるようにしたいです。-->
+            <!--修正要-->
             <div class="edit-list">
                 <div class="main-image2 space">
                     <form action="" method="post" enctype="multipart/form-data">
